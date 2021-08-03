@@ -10,7 +10,8 @@ description: npm常用的命令
 abbrlink: 854b
 date: 2021-05-30 15:31:04
 updated: 2021-05-30 15:31:04
-cover:
+top_img: https://gitee.com/Debbl/hexo-blog-imges/raw/master/Npm/Npm-logo.png
+cover: https://gitee.com/Debbl/hexo-blog-imges/raw/master/Npm/Npm-logo.png
 ---
 
 ### 查看当前 npm 配置
@@ -120,7 +121,7 @@ npm config set proxy=http://server:port
 > 如果出现以下错误
 
 ```bash
-npm err! Error: connect ECONNREFUSED 127.0.0.1:8087 
+npm err! Error: connect ECONNREFUSED 127.0.0.1:8087
 ```
 
 > 解决办法（清除代理）
