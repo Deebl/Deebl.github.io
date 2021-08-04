@@ -83,28 +83,28 @@ git commit -m ":tada: Initialize Repo"
 |     🔇（静音）     |           `:mute:`​            |                  删除日志                  |
 |    👥（剪影像）    |    `:busts_in_silhouette:`​    |            添加或更新贡献者/们             |
 |  🚸（儿童交叉口）  |     `:children_crossing:`​     |            改善用户体验/可用性             |
-|   🏗（建筑工程）   |   `:building_construction:`   |                进行架构更改                |
+|   🏗️（建筑工程）   |   `:building_construction:`   |                进行架构更改                |
 |     📱（手机）     |          `:iphone:`​           |                 移动端设计                 |
 |    🤡（小丑脸）    |        `:clown_face:`​         |                 模拟的东西                 |
 |     🥚（鸡蛋）     |            `:egg:`​            |            添加或更新复活节彩蛋            |
 |    🙈（看不见）    |        `:see_no_evil:`        |         添加或更新 .gitignore 文件         |
 |   📸（闪光相机）   |       `:camera_flash:`​        |               添加或更新快照               |
-|    ⚗（蒸馏瓶）    |          `:alembic:`​          |                  进行实验                  |
+|    ⚗️（蒸馏瓶）    |          `:alembic:`​          |                  进行实验                  |
 |     🔍（搜索）     |            `:mag:`​            |          提高搜索引擎优化（SEO）           |
-|     🏷（标签）     |           `:label:`​           |               添加或更新类型               |
+|     🏷️（标签）     |           `:label:`​           |               添加或更新类型               |
 |     🌱（幼苗）     |         `:seedling:`​          |         添加或更新种子（模板）文件         |
 |   🚩（三角旗杆）   |  `:triangular_flag_on_post:`​  |          添加、更新或删除功能标志          |
 |    🥅（目标网）    |         `:goal_net:`​          |                  捕捉错误                  |
 |     💫（眩晕）     |           `:dizzy:`​           |            添加或更新动画和过渡            |
-|    🗑（废纸篓）    |        `:wastebasket:`​        |             弃用需要清理的代码             |
+|    🗑️（废纸篓）    |        `:wastebasket:`​        |             弃用需要清理的代码             |
 |   🛂（护照检查）   |     `:passport_control:`​      |      处理与授权、角色和权限相关的代码      |
 |   🩹（胶布绷带）   |     `:adhesive_bandage:`      |         - 对非关键问题的简单修复 -         |
 |     🧐（查看）     |       `:monocle_face:`        |             - 数据探索/检查 -              |
-|     ⚰（棺材）     |          `:coffin:`​           |               删除失效的代码               |
+|     ⚰️（棺材）     |          `:coffin:`​           |               删除失效的代码               |
 |     🧪（试管）     |         `:test_tube`          |             - 添加失败的测试 -             |
 |     👔（领带）     |          `:necktie:`​          |             添加或更新业务逻辑             |
 
-​	
+​
 
 ### 🔍 参考
 
@@ -115,6 +115,8 @@ https://github.com/liuchengxu/git-commit-emoji-cn
 
 
 ### 🌐 emoji 网站
+
+https://gitmoji.dev/
 
 http://emojihomepage.com/
 
