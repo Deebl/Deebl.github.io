@@ -30,11 +30,15 @@ envsubst < _config.butterfly_temp.yml > _config.butterfly.yml
 ```
 
 ```
-Git
+  - Git
 ```
 
 ```
-Gitmoji
+  - Gitmoji
+```
+
+```
+  - Browser
 ```
 
 ### :book:categories
@@ -45,9 +49,14 @@ Gitmoji
 ```
 
 ```
+  - Web
+  - Other
+```
+
+```
   - 树莓派
 ```
 
 ```
-Git
+  - Git
 ```
