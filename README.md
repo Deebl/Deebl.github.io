@@ -1,6 +1,6 @@
 ### :computer:环境变量
 #### 1. 请添加环境变量
-##### 1.1 添加环境变量命令 
+##### 1.1 添加环境变量命令
 
 ```bash
 export DAOVOICE_APP_ID=***
@@ -29,6 +29,14 @@ envsubst < _config.butterfly_temp.yml > _config.butterfly.yml
   - 树莓派
 ```
 
+```
+Git
+```
+
+```
+Gitmoji
+```
+
 ### :book:categories
 
 ```
@@ -40,3 +48,6 @@ envsubst < _config.butterfly_temp.yml > _config.butterfly.yml
   - 树莓派
 ```
 
+```
+Git
+```

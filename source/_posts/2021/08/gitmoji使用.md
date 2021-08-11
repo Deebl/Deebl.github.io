@@ -5,12 +5,12 @@ top_img: >-
 cover: >-
   https://gitee.com/Debbl/hexo-blog-imges/raw/master/Git/gitmoji%E4%BD%BF%E7%94%A8/gitmoji.gif
 tags:
-  - git
-  - gitmoji
+  - Git
+  - Gitmoji
 categories:
-  - git
+  - Git
+description: "\U0001F389 gitmoji的使用"
 abbrlink: f2c
-description: 🎉 gitmoji的使用
 date: 2021-08-03 20:00:18
 updated: 2021-08-03 20:00:18
 ---
