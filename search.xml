@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>浏览器内核</title>
+      <link href="/2021/08/9efd.html"/>
+      <url>/2021/08/9efd.html</url>
+      
+        <content type="html"><![CDATA[<h3 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h3><p>浏览器最核心的部分是渲染引擎<code>Rendering Engine</code>，一般也称为浏览器内核。其负责对网页语法进行解释。由于一些历史原因，不同的的浏览器可能会使用不同的内核，导致最终渲染的内容在不同浏览器有差别。<strong>即我们在开发测试时，只需要测试不同的浏览器的内核。</strong></p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">h2</span>&gt;</span>Hello World<span class="tag">&lt;/<span class="name">h2</span>&gt;</span></span><br></pre></td></tr></table></figure><blockquote><p>会被渲染成</p></blockquote><p><strong>Hello World</strong></p><h3 id="不同的浏览器内核"><a href="#不同的浏览器内核" class="headerlink" title="不同的浏览器内核"></a>不同的浏览器内核</h3><blockquote><p>一些浏览器还会使用双核</p></blockquote><ul><li>Trident 三叉戟</li></ul><p>IE&lt;=10</p><ul><li>Gecko 壁虎</li></ul><p>Firefox</p><ul><li>Presto 急板乐曲</li></ul><p>Opera(V&lt;=12.16) 之后使用 Blink</p><ul><li>Webkit</li></ul><p>Safari</p><ul><li>Blink</li></ul><p>Chrome</p><h3 id="浏览器内核技术"><a href="#浏览器内核技术" class="headerlink" title="浏览器内核技术"></a>浏览器内核技术</h3><ul><li>排版渲染引擎</li><li>JavaScript引擎</li><li>其他</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> Web </category>
+          
+          <category> Other </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Browser </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>gitmoji使用</title>
       <link href="/2021/08/f2c.html"/>
       <url>/2021/08/f2c.html</url>
