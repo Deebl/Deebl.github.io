@@ -41,6 +41,10 @@ envsubst < _config.butterfly_temp.yml > _config.butterfly.yml
   - Browser
 ```
 
+```
+  - Vim
+```
+
 ### :book:categories
 
 ```
@@ -59,4 +63,8 @@ envsubst < _config.butterfly_temp.yml > _config.butterfly.yml
 
 ```
   - Git
+```
+
+```
+  - Vim
 ```
