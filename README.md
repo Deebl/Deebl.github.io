@@ -45,11 +45,24 @@ envsubst < _config.butterfly_temp.yml > _config.butterfly.yml
   - Vim
 ```
 
+```
+  - Web
+```
+
+```
+  - HTML
+```
+
 ### :book:categories
 
 ```
   - Web
   - Node.js
+```
+
+```
+  - Web
+  - Other
 ```
 
 ```
