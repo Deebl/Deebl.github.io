@@ -1539,7 +1539,7 @@ img:not([src]) {
   --hltools-color: rgba(238,255,255,0.8);
   --hlnumber-bg: #212121;
   --hlnumber-color: rgba(238,255,255,0.5);
-  --hlscrollbar-bg: #121212;
+  --hlscrollbar-bg: #353535;
   --hlexpand-bg: linear-gradient(180deg, rgba(33,33,33,0.6), rgba(33,33,33,0.9));
 }
 figure.highlight table::-webkit-scrollbar-thumb {
