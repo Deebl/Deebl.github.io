@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>爱玩</title>
+    <link>https://blog.aiwan.run/</link>
+    
+    <image>
+      <url>https://blog.aiwan.run/icon.png</url>
+      <title>爱玩</title>
+      <link>https://blog.aiwan.run/</link>
+    </image>
+    
+    <atom:link href="https://blog.aiwan.run/rss2.xml" rel="self" type="application/rss+xml"/>
+    
+    <description></description>
+    <pubDate>Mon, 30 Aug 2021 12:07:54 GMT</pubDate>
+    <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>HTML基本元素</title>
+      <link>https://blog.aiwan.run/2021/08/ec16.html</link>
+      <guid>https://blog.aiwan.run/2021/08/ec16.html</guid>
+      <pubDate>Mon, 30 Aug 2021 12:07:54 GMT</pubDate>
+      
+      <description>HTML 的基本元素和一些 Web 基础</description>
+      
+      
+      
+      
+      <category domain="https://blog.aiwan.run/categories/Web/">Web</category>
+      
+      <category domain="https://blog.aiwan.run/categories/Web/HTML/">HTML</category>
+      
+      
+      <category domain="https://blog.aiwan.run/tags/Web/">Web</category>
+      
+      <category domain="https://blog.aiwan.run/tags/HTML/">HTML</category>
+      
+      
+      <comments>https://blog.aiwan.run/2021/08/ec16.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Vim学习</title>
+      <link>https://blog.aiwan.run/2021/08/5c9e.html</link>
+      <guid>https://blog.aiwan.run/2021/08/5c9e.html</guid>
+      <pubDate>Sat, 14 Aug 2021 08:25:51 GMT</pubDate>
+      
+      <description>Vim学习</description>
+      
+      
+      
+      
+      <category domain="https://blog.aiwan.run/categories/Vim/">Vim</category>
+      
+      
+      <category domain="https://blog.aiwan.run/tags/Vim/">Vim</category>
+      
+      
+      <comments>https://blog.aiwan.run/2021/08/5c9e.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>浏览器内核</title>
+      <link>https://blog.aiwan.run/2021/08/9efd.html</link>
+      <guid>https://blog.aiwan.run/2021/08/9efd.html</guid>
+      <pubDate>Wed, 11 Aug 2021 07:47:20 GMT</pubDate>
+      
+      <description>浏览器内核</description>
+      
+      
+      
+      
+      <category domain="https://blog.aiwan.run/categories/Web/">Web</category>
+      
+      <category domain="https://blog.aiwan.run/categories/Web/Other/">Other</category>
+      
+      
+      <category domain="https://blog.aiwan.run/tags/Browser/">Browser</category>
+      
+      
+      <comments>https://blog.aiwan.run/2021/08/9efd.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>gitmoji使用</title>
+      <link>https://blog.aiwan.run/2021/08/f2c.html</link>
+      <guid>https://blog.aiwan.run/2021/08/f2c.html</guid>
+      <pubDate>Tue, 03 Aug 2021 12:00:18 GMT</pubDate>
+      
+      <description>🎉 gitmoji的使用</description>
+      
+      
+      
+      
+      <category domain="https://blog.aiwan.run/categories/Git/">Git</category>
+      
+      
+      <category domain="https://blog.aiwan.run/tags/Git/">Git</category>
+      
+      <category domain="https://blog.aiwan.run/tags/Gitmoji/">Gitmoji</category>
+      
+      
+      <comments>https://blog.aiwan.run/2021/08/f2c.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>树莓派开机使用</title>
+      <link>https://blog.aiwan.run/2021/06/d2df.html</link>
+      <guid>https://blog.aiwan.run/2021/06/d2df.html</guid>
+      <pubDate>Fri, 11 Jun 2021 11:42:03 GMT</pubDate>
+      
+      <description>树莓派开始使用</description>
+      
+      
+      
+      
+      <category domain="https://blog.aiwan.run/categories/%E6%A0%91%E8%8E%93%E6%B4%BE/">树莓派</category>
+      
+      
+      <category domain="https://blog.aiwan.run/tags/%E6%A0%91%E8%8E%93%E6%B4%BE/">树莓派</category>
+      
+      
+      <comments>https://blog.aiwan.run/2021/06/d2df.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>npm常用命令</title>
+      <link>https://blog.aiwan.run/2021/05/854b.html</link>
+      <guid>https://blog.aiwan.run/2021/05/854b.html</guid>
+      <pubDate>Sun, 30 May 2021 07:31:04 GMT</pubDate>
+      
+      <description>npm常用的命令</description>
+      
+      
+      
+      
+      <category domain="https://blog.aiwan.run/categories/Web/">Web</category>
+      
+      <category domain="https://blog.aiwan.run/categories/Web/Node-js/">Node.js</category>
+      
+      
+      <category domain="https://blog.aiwan.run/tags/npm/">npm</category>
+      
+      <category domain="https://blog.aiwan.run/tags/Node-js/">Node.js</category>
+      
+      
+      <comments>https://blog.aiwan.run/2021/05/854b.html#disqus_thread</comments>
+      
+    </item>
+    
+  </channel>
+</rss>

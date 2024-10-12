@@ -1,25 +1,18 @@
-<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>爱玩</title><meta name="author" content="Debbl"><meta name="copyright" content="Debbl"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta property="og:type" content="website">
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>爱玩</title><meta name="author" content="Debbl"><meta name="copyright" content="Debbl"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta property="og:type" content="website">
 <meta property="og:title" content="爱玩">
 <meta property="og:url" content="https://blog.aiwan.run/index.html">
 <meta property="og:site_name" content="爱玩">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="https://blog.aiwan.run/images/avatar_img.png">
+<meta property="og:image" content="https://gitee.com/Debbl/hexo-blog-imges/raw/master/images/avator_img.png">
 <meta property="article:author" content="Debbl">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://blog.aiwan.run/images/avatar_img.png"><link rel="shortcut icon" href="/./images/favicon.png"><link rel="canonical" href="https://blog.aiwan.run/"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//hm.baidu.com"/><link rel="preconnect" href="//s4.cnzz.com"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="/pluginsSrc/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="/pluginsSrc/node-snackbar/dist/snackbar.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="/pluginsSrc/@fancyapps/ui/dist/fancybox.css" media="print" onload="this.media='all'"><script>var _hmt = _hmt || [];
-(function() {
-  var hm = document.createElement("script");
-  hm.src = "https://hm.baidu.com/hm.js?d0fb82ad55298e4b82cc89030cbbcf58";
-  var s = document.getElementsByTagName("script")[0]; 
-  s.parentNode.insertBefore(hm, s);
-})();
-</script><script async="async" data-pjax="data-pjax" src="https://s4.cnzz.com/z_stat.php?id=1279963636&amp;web_id=1279963636"></script><script>const GLOBAL_CONFIG = { 
+<meta name="twitter:image" content="https://gitee.com/Debbl/hexo-blog-imges/raw/master/images/avator_img.png"><link rel="shortcut icon" href="https://gitee.com/Debbl/hexo-blog-imges/raw/master/images/favicon.png"><link rel="canonical" href="https://blog.aiwan.run/"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
   root: '/',
   algolia: undefined,
-  localSearch: {"path":"/search.xml","preload":true,"languages":{"hits_empty":"找不到您查询的内容：${query}"}},
-  translate: undefined,
+  localSearch: {"path":"search.xml","languages":{"hits_empty":"找不到您查询的内容：${query}"}},
+  translate: {"defaultEncoding":2,"translateDelay":0,"msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"簡"},
   noticeOutdate: undefined,
-  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":200},
   copy: {
     success: '复制成功',
     error: '复制错误',
@@ -39,23 +32,28 @@
   },
   copyright: undefined,
   lightbox: 'fancybox',
-  Snackbar: {"chs_to_cht":"你已切换为繁体","cht_to_chs":"你已切换为简体","day_to_night":"你已切换为深色模式","night_to_day":"你已切换为浅色模式","bgLight":"#49b1f5","bgDark":"#1f1f1f","position":"bottom-left"},
+  Snackbar: {"chs_to_cht":"你已切换为繁体","cht_to_chs":"你已切换为简体","day_to_night":"你已切换为深色模式","night_to_day":"你已切换为浅色模式","bgLight":"#49b1f5","bgDark":"#121212","position":"bottom-left"},
   source: {
+    jQuery: 'https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js',
     justifiedGallery: {
-      js: '/pluginsSrc/flickr-justified-gallery/dist/fjGallery.min.js',
-      css: '/pluginsSrc/flickr-justified-gallery/dist/fjGallery.css'
+      js: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/js/jquery.justifiedGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/css/justifiedGallery.min.css'
+    },
+    fancybox: {
+      js: 'https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css'
     }
   },
   isPhotoFigcaption: false,
   islazyload: false,
-  isAnchor: false
+  isanchor: false
 }</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
   title: '爱玩',
   isPost: false,
   isHome: true,
   isHighlightShrink: false,
   isToc: false,
-  postUpdate: '2022-05-28 10:47:16'
+  postUpdate: '2024-10-12 15:55:00'
 }</script><noscript><style type="text/css">
   #nav {
     opacity: 1
@@ -138,255 +136,27 @@
         }
       }
     
+    const fontSizeVal = saveToLocal.get('global-font-size')
+    if (fontSizeVal !== undefined) {
+      document.documentElement.style.setProperty('--global-font-size', fontSizeVal + 'px')
+    }
+    
     const detectApple = () => {
-      if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+      if (GLOBAL_CONFIG_SITE.isHome && /iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
         document.documentElement.classList.add('apple')
       }
     }
     detectApple()
-    })(window)</script><meta name="generator" content="Hexo 6.2.0"></head><body><div id="loading-box"><div class="loading-left-bg"></div><div class="loading-right-bg"></div><div class="spinner-box"><div class="configure-border-1"><div class="configure-core"></div></div><div class="configure-border-2"><div class="configure-core"></div></div><div class="loading-word">加载中...</div></div></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/./images/avatar_img.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">8</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">12</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">9</div></a></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" target="_blank" rel="noopener" href="https://aiwan.run/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div></div></div><div class="page" id="body-wrap"><header class="full_page" id="page-header" style="background-image: url('/./images/background_img.png')"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">爱玩</a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" target="_blank" rel="noopener" href="https://aiwan.run/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="site-info"><h1 id="site-title">爱玩</h1><div id="site-subtitle"><span id="subtitle"></span></div></div><div id="scroll-down"><i class="fas fa-angle-down scroll-down-effects"></i></div></header><main class="layout" id="content-inner"><div class="recent-posts" id="recent-posts"><div class="recent-post-item"><div class="post_cover left"><a href="/2021/10/e068.html" title="配置zsh"><img class="post_bg" src="/2021/10/e068/images/zsh.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="配置zsh"></a></div><div class="recent-post-info"><a class="article-title" href="/2021/10/e068.html" title="配置zsh">配置zsh</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time class="post-meta-date-created" datetime="2021-10-10T10:26:51.000Z" title="发表于 2021-10-10 18:26:51">2021-10-10</time><span class="article-meta-separator">|</span><i class="fas fa-history"></i><span class="article-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2021-10-10T10:26:51.000Z" title="更新于 2021-10-10 18:26:51">2021-10-10</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E7%BB%88%E7%AB%AF/">终端</a></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/zsh/">zsh</a><span class="article-meta-link">•</span><a class="article-meta__tags" href="/tags/shell/">shell</a></span></div><div class="content">准备查看当前环境的 shell1echo $SHELL
-
-查看当前系统有那些 shell1cat /etc/shells
-
-安装 zsh1sudo apt install zsh
-
-将 zsh 设置为默认的 shell1chsh -s /bin/zsh
-
-安装 Oh My Zsh1git clone git://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
-
-1cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc
-
-安装 Powerlevel10k克隆仓库
-GitHub
-
-1git clone --depth=1 https://github.com/romkatv/powerlevel10k.git $&#123;ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom&#125;/themes/powerlevel10k
-
-
-Gitee
-
-1git clone --depth=1 https://gitee.com/romkatv/powerlevel10k. ...</div></div></div><div class="recent-post-item"><div class="post_cover right"><a href="/2021/09/657.html" title="初识CSS"><img class="post_bg" src="/2021/09/657/images/css-logo.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="初识CSS"></a></div><div class="recent-post-info"><a class="article-title" href="/2021/09/657.html" title="初识CSS">初识CSS</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time class="post-meta-date-created" datetime="2021-09-11T15:20:50.000Z" title="发表于 2021-09-11 23:20:50">2021-09-11</time><span class="article-meta-separator">|</span><i class="fas fa-history"></i><span class="article-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2021-09-11T15:20:50.000Z" title="更新于 2021-09-11 23:20:50">2021-09-11</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/Web/">Web</a><i class="fas fa-angle-right article-meta-link"></i><a class="article-meta__categories" href="/categories/Web/CSS/">CSS</a></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/Web/">Web</a><span class="article-meta-link">•</span><a class="article-meta__tags" href="/tags/CSS/">CSS</a></span></div><div class="content">初识 CSSHTML用于定义内容的结构和语义，CSS Cascading Style Sheets 层叠样式表 用于设计风格和布局。比如，您可以使用 CSS 来更改内容的字体、颜色、大小、间距，将内容分为多列，或者添加动画及其他的装饰效果。
-如何将 CSS 样式应用到元素上
-内联样式 inline style
-文档样式表 document style sheet、内嵌样式表 embed style sheet
-外部样式表 external style sheet
-
-内联样式 inline style
-将样式直接写在元素的 style 属性上
-
-1&lt;div style=&quot;color: white; background: red&quot;&gt;显示文字&lt;/div&gt;
-
-文档样式表 document style sheet
-style 元素的 type 属性默认值是 text/css
-
-12345678910111213141516&lt;!DOCTYPE html&gt;&lt;html lang=&quot;en&quot;&gt;&lt;head&gt; ...</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/2021/08/ec16.html" title="HTML基本元素"><img class="post_bg" src="/2021/08/ec16/images/HTML5_logo_and_wordmark.svg.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="HTML基本元素"></a></div><div class="recent-post-info"><a class="article-title" href="/2021/08/ec16.html" title="HTML基本元素">HTML基本元素</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time class="post-meta-date-created" datetime="2021-08-30T12:07:54.000Z" title="发表于 2021-08-30 20:07:54">2021-08-30</time><span class="article-meta-separator">|</span><i class="fas fa-history"></i><span class="article-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2021-08-30T12:07:54.000Z" title="更新于 2021-08-30 20:07:54">2021-08-30</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/Web/">Web</a><i class="fas fa-angle-right article-meta-link"></i><a class="article-meta__categories" href="/categories/Web/HTML/">HTML</a></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/Web/">Web</a><span class="article-meta-link">•</span><a class="article-meta__tags" href="/tags/HTML/">HTML</a></span></div><div class="content">HTML基本元素
-HTML 超文本标记语言 HyperText Marup Language
-
-HTML 基本的结构123456789101112&lt;!DOCTYPE html&gt;&lt;html lang=&quot;en&quot;&gt;&lt;head&gt;    &lt;meta charset=&quot;UTF-8&quot;&gt;    &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot;&gt;    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;    &lt;title&gt;Document&lt;/title&gt;&lt;/head&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;
-
-文档声明
-&lt;!DOCTYPE html&gt;
-
-HTML 文档声明，告诉浏览器当前 ...</div></div></div><div class="recent-post-item"><div class="post_cover right"><a href="/2021/08/5c9e.html" title="Vim学习"><img class="post_bg" src="/2021/08/5c9e/images/1200px-Vimlogo.svg.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Vim学习"></a></div><div class="recent-post-info"><a class="article-title" href="/2021/08/5c9e.html" title="Vim学习">Vim学习</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time class="post-meta-date-created" datetime="2021-08-14T08:25:51.000Z" title="发表于 2021-08-14 16:25:51">2021-08-14</time><span class="article-meta-separator">|</span><i class="fas fa-history"></i><span class="article-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2021-08-14T08:25:51.000Z" title="更新于 2021-08-14 16:25:51">2021-08-14</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/Vim/">Vim</a></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/Vim/">Vim</a></span></div><div class="content">模式
-VIM 中有多种模式：基本模式和派生模式
-
-基本模式Normal mode 普通模式、默认模式、命令模式默认模式，首次用 VIM 打开文件进入该模式，在其他模式中可以使用 ESC 进入该模式。也叫命令模式
-
-使用 Ctrl + g 可显示当前文件名和一些其他信息
-
-Visual mode 可视模式在 Normal mode 下，输入 v , V 或者 Ctrl + v 进入可视化模式，该模式可以选择一块编辑区域，然后对选中的文件内容执行 插入、删除、替换、改变大小写 等操作。
-
-字符选择模式：选中光标经过的所有字符，普通模式下按 v 进入
-
-行选择模式：选中光标经过的所有行，普通模式下按 V 进入
-
-块选择模式：选中一整个矩形框表示的所有文本，普通模式下按 Ctrl + v 进入
-
-
-
-可以使用 o 在选中区域的左上角和右下角切换
-
-参考 https://vimjc.com/vim-visual-mode.html
-Select mode 选择模式
-可以用鼠标或光标键高亮选择文本
-
-任何输入都会替换选择的高亮文本
-
-并进入插入模式
-
-
-参考 https://www.bilibil ...</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/2021/08/9efd.html" title="浏览器内核"><img class="post_bg" src="/2021/08/9efd/images/RenderingEngine.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="浏览器内核"></a></div><div class="recent-post-info"><a class="article-title" href="/2021/08/9efd.html" title="浏览器内核">浏览器内核</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time class="post-meta-date-created" datetime="2021-08-11T07:47:20.000Z" title="发表于 2021-08-11 15:47:20">2021-08-11</time><span class="article-meta-separator">|</span><i class="fas fa-history"></i><span class="article-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2021-08-11T07:47:20.000Z" title="更新于 2021-08-11 15:47:20">2021-08-11</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/Web/">Web</a><i class="fas fa-angle-right article-meta-link"></i><a class="article-meta__categories" href="/categories/Web/Other/">Other</a></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/Browser/">Browser</a></span></div><div class="content">介绍浏览器最核心的部分是渲染引擎Rendering Engine，一般也称为浏览器内核。其负责对网页语法进行解释。由于一些历史原因，不同的的浏览器可能会使用不同的内核，导致最终渲染的内容在不同浏览器有差别。即我们在开发测试时，只需要测试不同的浏览器的内核。
-1&lt;h2&gt;Hello World&lt;/h2&gt;
-
-
-会被渲染成
-
-Hello World
-不同的浏览器内核
-一些浏览器还会使用双核
-
-
-Trident 三叉戟
-
-IE&lt;&#x3D;10
-
-Gecko 壁虎
-
-Firefox
-
-Presto 急板乐曲
-
-Opera(V&lt;&#x3D;12.16) 之后使用 Blink
-
-Webkit
-
-Safari
-
-Blink
-
-Chrome
-浏览器内核技术
-排版渲染引擎
-JavaScript引擎
-其他
-
-</div></div></div><div class="recent-post-item"><div class="post_cover right"><a href="/2021/08/f2c.html" title="gitmoji使用"><img class="post_bg" src="/2021/08/f2c/images/gitmoji.gif" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="gitmoji使用"></a></div><div class="recent-post-info"><a class="article-title" href="/2021/08/f2c.html" title="gitmoji使用">gitmoji使用</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time class="post-meta-date-created" datetime="2021-08-03T12:00:18.000Z" title="发表于 2021-08-03 20:00:18">2021-08-03</time><span class="article-meta-separator">|</span><i class="fas fa-history"></i><span class="article-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2021-08-03T12:00:18.000Z" title="更新于 2021-08-03 20:00:18">2021-08-03</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/Git/">Git</a></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/Git/">Git</a><span class="article-meta-link">•</span><a class="article-meta__tags" href="/tags/Gitmoji/">Gitmoji</a></span></div><div class="content">🎉为什么使用 Gitmoji在我们执行git commit 是使用 emoji 为本次提交打一个标签, 使得此次 commit 的主要工作得以凸现，也能够使得其在整个提交历史中易于区分与查找。
-
-👌Commit 提交格式1git commit -m &quot;:emoji1: :emoji2: 不超过 50 个字的摘要，首字母大写，使用祈使语气，句末不要加句号&quot;
-
-初次提交示例1git commit -m &quot;:tada: Initialize Repo&quot;
-
-📝emoji 指南
-
-
-emoji
-emoji 代码
-commit 说明
-
-
-
-🎉（庆祝）
-:tada:​
-初次提交，初始化仓库
-
-
-🎨（调色板）
-:art:
-改进代码结构&#x2F;代码格式
-
-
-⚡（闪电）
-:zap:​
-提高性能
-
-
-🔥（火焰）
-:fire:​
-删除代码或文件
-
-
-🐛（bug）
-:bug:​
-修复一个 bug
-
-
-🚑（急救车）
-:ambulance:​
-重要补丁
-
-
-✨（闪闪发光）
-:sparkles:​
-介绍新的特性
-
-
-📝（备忘录）
-:memo:​
-添加或更新 ...</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/2021/06/d2df.html" title="树莓派开机使用"><img class="post_bg" src="/2021/06/d2df/images/raspberry-pi-4-labelled.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="树莓派开机使用"></a></div><div class="recent-post-info"><a class="article-title" href="/2021/06/d2df.html" title="树莓派开机使用">树莓派开机使用</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time class="post-meta-date-created" datetime="2021-06-11T11:42:03.000Z" title="发表于 2021-06-11 19:42:03">2021-06-11</time><span class="article-meta-separator">|</span><i class="fas fa-history"></i><span class="article-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2021-08-30T09:22:23.000Z" title="更新于 2021-08-30 17:22:23">2021-08-30</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E6%A0%91%E8%8E%93%E6%B4%BE/">树莓派</a></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/%E6%A0%91%E8%8E%93%E6%B4%BE/">树莓派</a></span></div><div class="content">SSH 连接
-有屏幕
-
-直接用鼠标点击操作
-
-
-无屏幕有线网络
-
-在 SD 卡的根目录（ boot ）中新建 SSH 文件（文件无内容）
-
-获取树莓派的 IP 地址
-
-用 SSH 连接工具连接树莓派
-
-
-
-无屏幕无线网络
-
-开启 SSH， 即第二步的在 SD 卡的根目录新建 SSH 文件
-
-在 SD 卡的根目录（ boot ），新建 wpa_supplicant.conf 文件（这个文件是用来添加无线连接的）
-123456789ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdevupdate_config=1country=GB# 修改下面的配置network=&#123;  ssid=&quot;Wi-Fi名&quot;  psk=&quot;Wi-Fi密码&quot;  key_mgmt=WPA-PSK&#125;
-
-使用 SSH 连接工具
-
-
-
-
-扩展功能
-SSH
-VNC
-摄像头
-等
-
-在终端中输入
-1sudo raspi-config
-
-连接 VNC
-鼠标操作
-
-直接在终端输入，这个是临时的而且一次只能开一个
-1vncs ...</div></div></div><div class="recent-post-item"><div class="post_cover right"><a href="/2021/05/854b.html" title="npm常用命令"><img class="post_bg" src="/2021/05/854b/images/Npm-logo.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="npm常用命令"></a></div><div class="recent-post-info"><a class="article-title" href="/2021/05/854b.html" title="npm常用命令">npm常用命令</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time class="post-meta-date-created" datetime="2021-05-30T07:31:04.000Z" title="发表于 2021-05-30 15:31:04">2021-05-30</time><span class="article-meta-separator">|</span><i class="fas fa-history"></i><span class="article-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2021-05-30T07:31:04.000Z" title="更新于 2021-05-30 15:31:04">2021-05-30</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/Web/">Web</a><i class="fas fa-angle-right article-meta-link"></i><a class="article-meta__categories" href="/categories/Web/Node-js/">Node.js</a></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/npm/">npm</a><span class="article-meta-link">•</span><a class="article-meta__tags" href="/tags/Node-js/">Node.js</a></span></div><div class="content">查看当前 npm 配置1npm config list
-
-创建模块
-会生成一个package.json文件有当前项目的信息
-
-1npm init
-
-CNPM淘宝镜像
-查看当前镜像源
-
-1npm get registry
-
-
-设置为淘宝镜像源
-
-1npm config set registry http://registry.npm.taobao.org/
-
-设置回默认的官方镜像
-
-1npm config set registry https://registry.npmjs.org/
-
-也可以直接选择安装 cnpm
-
-1npm install -g cnpm --registry=https://registry.npm.taobao.org
-
-安装Node模块
-会新建一个node_modules目录
-
-1npm install &lt;Module Name&gt;
-
-
-全局安装
-
-123npm install &lt;Module Name&gt; --global# 或npm install &lt;Modele Name&gt; -g
-
-
-安装在当前目录的node_module ...</div></div></div><nav id="pagination"><div class="pagination"><span class="page-number current">1</span></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="/./images/avatar_img.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">Debbl</div><div class="author-info__description"></div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">8</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">12</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">9</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/Debbl"><i class="fab fa-github"></i><span>Follow Me</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">This is my Blog</div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2021/10/e068.html" title="配置zsh"><img src="/2021/10/e068/images/zsh.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="配置zsh"/></a><div class="content"><a class="title" href="/2021/10/e068.html" title="配置zsh">配置zsh</a><time datetime="2021-10-10T10:26:51.000Z" title="发表于 2021-10-10 18:26:51">2021-10-10</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2021/09/657.html" title="初识CSS"><img src="/2021/09/657/images/css-logo.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="初识CSS"/></a><div class="content"><a class="title" href="/2021/09/657.html" title="初识CSS">初识CSS</a><time datetime="2021-09-11T15:20:50.000Z" title="发表于 2021-09-11 23:20:50">2021-09-11</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2021/08/ec16.html" title="HTML基本元素"><img src="/2021/08/ec16/images/HTML5_logo_and_wordmark.svg.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="HTML基本元素"/></a><div class="content"><a class="title" href="/2021/08/ec16.html" title="HTML基本元素">HTML基本元素</a><time datetime="2021-08-30T12:07:54.000Z" title="发表于 2021-08-30 20:07:54">2021-08-30</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2021/08/5c9e.html" title="Vim学习"><img src="/2021/08/5c9e/images/1200px-Vimlogo.svg.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Vim学习"/></a><div class="content"><a class="title" href="/2021/08/5c9e.html" title="Vim学习">Vim学习</a><time datetime="2021-08-14T08:25:51.000Z" title="发表于 2021-08-14 16:25:51">2021-08-14</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2021/08/9efd.html" title="浏览器内核"><img src="/2021/08/9efd/images/RenderingEngine.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="浏览器内核"/></a><div class="content"><a class="title" href="/2021/08/9efd.html" title="浏览器内核">浏览器内核</a><time datetime="2021-08-11T07:47:20.000Z" title="发表于 2021-08-11 15:47:20">2021-08-11</time></div></div></div></div><div class="card-widget card-categories"><div class="item-headline">
+    })(window)</script><script src="https://cdn.jsdelivr.net/gh/Debbl/live2d-widget@latest/autoload.js"></script><meta name="generator" content="Hexo 5.4.2"><link rel="alternate" href="/atom.xml" title="爱玩" type="application/atom+xml">
+<link rel="alternate" href="/rss2.xml" title="爱玩" type="application/rss+xml">
+</head><body><div id="loading-box"><div class="loading-left-bg"></div><div class="loading-right-bg"></div><div class="spinner-box"><div class="configure-border-1"><div class="configure-core"></div></div><div class="configure-border-2"><div class="configure-core"></div></div><div class="loading-word">加载中...</div></div></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="https://gitee.com/Debbl/hexo-blog-imges/raw/master/images/avator_img.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data"><div class="data-item is-center"><div class="data-item-link"><a href="/archives/"><div class="headline">文章</div><div class="length-num">6</div></a></div></div><div class="data-item is-center"><div class="data-item-link"><a href="/tags/"><div class="headline">标签</div><div class="length-num">9</div></a></div></div><div class="data-item is-center"><div class="data-item-link"><a href="/categories/"><div class="headline">分类</div><div class="length-num">7</div></a></div></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div></div></div><div class="page" id="body-wrap"><header class="full_page" id="page-header" style="background-image: url('https://gitee.com/Debbl/hexo-blog-imges/raw/master/images/background_img.png')"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">爱玩</a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="site-info"><h1 id="site-title">爱玩</h1><div id="site-subtitle"><span id="subtitle"></span></div></div><div id="scroll-down"><i class="fas fa-angle-down scroll-down-effects"></i></div></header><main class="layout" id="content-inner"><div class="recent-posts" id="recent-posts"><div class="recent-post-item"><div class="post_cover left_radius"><a href="/2021/08/ec16.html" title="HTML基本元素">     <img class="post_bg" src="https://gitee.com/Debbl/hexo-blog-imges/raw/master/HTML/HTML5_logo_and_wordmark.svg.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="HTML基本元素"></a></div><div class="recent-post-info"><a class="article-title" href="/2021/08/ec16.html" title="HTML基本元素">HTML基本元素</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time class="post-meta-date-created" datetime="2021-08-30T12:07:54.000Z" title="发表于 2021-08-30 20:07:54">2021-08-30</time><span class="article-meta__separator">|</span><i class="fas fa-history"></i><span class="article-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2021-08-30T12:07:54.000Z" title="更新于 2021-08-30 20:07:54">2021-08-30</time></span><span class="article-meta"><span class="article-meta__separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/Web/">Web</a><i class="fas fa-angle-right"></i><a class="article-meta__categories" href="/categories/Web/HTML/">HTML</a></span><span class="article-meta tags"><span class="article-meta__separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/Web/">Web</a><span class="article-meta__link">•</span><a class="article-meta__tags" href="/tags/HTML/">HTML</a></span></div><div class="content">HTML 的基本元素和一些 Web 基础</div></div></div><div class="recent-post-item"><div class="post_cover right_radius"><a href="/2021/08/5c9e.html" title="Vim学习">     <img class="post_bg" src="https://gitee.com/Debbl/hexo-blog-imges/raw/master/Vim/1200px-Vimlogo.svg.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Vim学习"></a></div><div class="recent-post-info"><a class="article-title" href="/2021/08/5c9e.html" title="Vim学习">Vim学习</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time class="post-meta-date-created" datetime="2021-08-14T08:25:51.000Z" title="发表于 2021-08-14 16:25:51">2021-08-14</time><span class="article-meta__separator">|</span><i class="fas fa-history"></i><span class="article-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2021-08-14T08:25:51.000Z" title="更新于 2021-08-14 16:25:51">2021-08-14</time></span><span class="article-meta"><span class="article-meta__separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/Vim/">Vim</a></span><span class="article-meta tags"><span class="article-meta__separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/Vim/">Vim</a></span></div><div class="content">Vim学习</div></div></div><div class="recent-post-item"><div class="post_cover left_radius"><a href="/2021/08/9efd.html" title="浏览器内核">     <img class="post_bg" src="https://gitee.com/Debbl/hexo-blog-imges/raw/master/Browser/RenderingEngine.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="浏览器内核"></a></div><div class="recent-post-info"><a class="article-title" href="/2021/08/9efd.html" title="浏览器内核">浏览器内核</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time class="post-meta-date-created" datetime="2021-08-11T07:47:20.000Z" title="发表于 2021-08-11 15:47:20">2021-08-11</time><span class="article-meta__separator">|</span><i class="fas fa-history"></i><span class="article-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2021-08-11T07:47:20.000Z" title="更新于 2021-08-11 15:47:20">2021-08-11</time></span><span class="article-meta"><span class="article-meta__separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/Web/">Web</a><i class="fas fa-angle-right"></i><a class="article-meta__categories" href="/categories/Web/Other/">Other</a></span><span class="article-meta tags"><span class="article-meta__separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/Browser/">Browser</a></span></div><div class="content">浏览器内核</div></div></div><div class="recent-post-item"><div class="post_cover right_radius"><a href="/2021/08/f2c.html" title="gitmoji使用">     <img class="post_bg" src="https://gitee.com/Debbl/hexo-blog-imges/raw/master/Git/gitmoji%E4%BD%BF%E7%94%A8/gitmoji.gif" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="gitmoji使用"></a></div><div class="recent-post-info"><a class="article-title" href="/2021/08/f2c.html" title="gitmoji使用">gitmoji使用</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time class="post-meta-date-created" datetime="2021-08-03T12:00:18.000Z" title="发表于 2021-08-03 20:00:18">2021-08-03</time><span class="article-meta__separator">|</span><i class="fas fa-history"></i><span class="article-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2021-08-03T12:00:18.000Z" title="更新于 2021-08-03 20:00:18">2021-08-03</time></span><span class="article-meta"><span class="article-meta__separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/Git/">Git</a></span><span class="article-meta tags"><span class="article-meta__separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/Git/">Git</a><span class="article-meta__link">•</span><a class="article-meta__tags" href="/tags/Gitmoji/">Gitmoji</a></span></div><div class="content">🎉 gitmoji的使用</div></div></div><div class="recent-post-item"><div class="post_cover left_radius"><a href="/2021/06/d2df.html" title="树莓派开机使用">     <img class="post_bg" src="https://gitee.com/Debbl/hexo-blog-imges/raw/master/Raspberry/raspberry-pi-4-labelled.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="树莓派开机使用"></a></div><div class="recent-post-info"><a class="article-title" href="/2021/06/d2df.html" title="树莓派开机使用">树莓派开机使用</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time class="post-meta-date-created" datetime="2021-06-11T11:42:03.000Z" title="发表于 2021-06-11 19:42:03">2021-06-11</time><span class="article-meta__separator">|</span><i class="fas fa-history"></i><span class="article-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2021-08-30T09:22:23.000Z" title="更新于 2021-08-30 17:22:23">2021-08-30</time></span><span class="article-meta"><span class="article-meta__separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E6%A0%91%E8%8E%93%E6%B4%BE/">树莓派</a></span><span class="article-meta tags"><span class="article-meta__separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/%E6%A0%91%E8%8E%93%E6%B4%BE/">树莓派</a></span></div><div class="content">树莓派开始使用</div></div></div><div class="recent-post-item"><div class="post_cover right_radius"><a href="/2021/05/854b.html" title="npm常用命令">     <img class="post_bg" src="https://gitee.com/Debbl/hexo-blog-imges/raw/master/Npm/Npm-logo.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="npm常用命令"></a></div><div class="recent-post-info"><a class="article-title" href="/2021/05/854b.html" title="npm常用命令">npm常用命令</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time class="post-meta-date-created" datetime="2021-05-30T07:31:04.000Z" title="发表于 2021-05-30 15:31:04">2021-05-30</time><span class="article-meta__separator">|</span><i class="fas fa-history"></i><span class="article-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2021-05-30T07:31:04.000Z" title="更新于 2021-05-30 15:31:04">2021-05-30</time></span><span class="article-meta"><span class="article-meta__separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/Web/">Web</a><i class="fas fa-angle-right"></i><a class="article-meta__categories" href="/categories/Web/Node-js/">Node.js</a></span><span class="article-meta tags"><span class="article-meta__separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/npm/">npm</a><span class="article-meta__link">•</span><a class="article-meta__tags" href="/tags/Node-js/">Node.js</a></span></div><div class="content">npm常用的命令</div></div></div><nav id="pagination"><div class="pagination"><span class="page-number current">1</span></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="https://gitee.com/Debbl/hexo-blog-imges/raw/master/images/avator_img.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">Debbl</div><div class="author-info__description"></div></div><div class="card-info-data"><div class="card-info-data-item is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">6</div></a></div><div class="card-info-data-item is-center"><a href="/tags/"><div class="headline">标签</div><div class="length-num">9</div></a></div><div class="card-info-data-item is-center"><a href="/categories/"><div class="headline">分类</div><div class="length-num">7</div></a></div></div><a class="button--animated" id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/Debbl"><i class="fab fa-github"></i><span>Follow Me</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn card-announcement-animation"></i><span>公告</span></div><div class="announcement_content">This is my Blog</div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2021/08/ec16.html" title="HTML基本元素"><img src="https://gitee.com/Debbl/hexo-blog-imges/raw/master/HTML/HTML5_logo_and_wordmark.svg.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="HTML基本元素"/></a><div class="content"><a class="title" href="/2021/08/ec16.html" title="HTML基本元素">HTML基本元素</a><time datetime="2021-08-30T12:07:54.000Z" title="发表于 2021-08-30 20:07:54">2021-08-30</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2021/08/5c9e.html" title="Vim学习"><img src="https://gitee.com/Debbl/hexo-blog-imges/raw/master/Vim/1200px-Vimlogo.svg.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Vim学习"/></a><div class="content"><a class="title" href="/2021/08/5c9e.html" title="Vim学习">Vim学习</a><time datetime="2021-08-14T08:25:51.000Z" title="发表于 2021-08-14 16:25:51">2021-08-14</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2021/08/9efd.html" title="浏览器内核"><img src="https://gitee.com/Debbl/hexo-blog-imges/raw/master/Browser/RenderingEngine.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="浏览器内核"/></a><div class="content"><a class="title" href="/2021/08/9efd.html" title="浏览器内核">浏览器内核</a><time datetime="2021-08-11T07:47:20.000Z" title="发表于 2021-08-11 15:47:20">2021-08-11</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2021/08/f2c.html" title="gitmoji使用"><img src="https://gitee.com/Debbl/hexo-blog-imges/raw/master/Git/gitmoji%E4%BD%BF%E7%94%A8/gitmoji.gif" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="gitmoji使用"/></a><div class="content"><a class="title" href="/2021/08/f2c.html" title="gitmoji使用">gitmoji使用</a><time datetime="2021-08-03T12:00:18.000Z" title="发表于 2021-08-03 20:00:18">2021-08-03</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2021/06/d2df.html" title="树莓派开机使用"><img src="https://gitee.com/Debbl/hexo-blog-imges/raw/master/Raspberry/raspberry-pi-4-labelled.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="树莓派开机使用"/></a><div class="content"><a class="title" href="/2021/06/d2df.html" title="树莓派开机使用">树莓派开机使用</a><time datetime="2021-06-11T11:42:03.000Z" title="发表于 2021-06-11 19:42:03">2021-06-11</time></div></div></div></div><div class="card-widget card-categories"><div class="item-headline">
             <i class="fas fa-folder-open"></i>
             <span>分类</span>
-            <a class="card-more-btn" href="/categories/" title="查看更多">
-    <i class="fas fa-angle-right"></i></a>
+            
             </div>
             <ul class="card-category-list" id="aside-cat-list">
-            <li class="card-category-list-item "><a class="card-category-list-link" href="/categories/Git/"><span class="card-category-list-name">Git</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/Vim/"><span class="card-category-list-name">Vim</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/Web/"><span class="card-category-list-name">Web</span><span class="card-category-list-count">4</span></a><ul class="card-category-list child"><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/Web/CSS/"><span class="card-category-list-name">CSS</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/Web/HTML/"><span class="card-category-list-name">HTML</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/Web/Node-js/"><span class="card-category-list-name">Node.js</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/Web/Other/"><span class="card-category-list-name">Other</span><span class="card-category-list-count">1</span></a></li></ul></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E6%A0%91%E8%8E%93%E6%B4%BE/"><span class="card-category-list-name">树莓派</span><span class="card-category-list-count">1</span></a></li>
-            </ul></div><div class="card-widget card-tags"><div class="item-headline"><i class="fas fa-tags"></i><span>标签</span></div><div class="card-tag-cloud"><a href="/tags/npm/" style="font-size: 1.15em; color: rgb(22, 9, 112)">npm</a><a href="/tags/Node-js/" style="font-size: 1.15em; color: rgb(199, 139, 40)">Node.js</a><a href="/tags/%E6%A0%91%E8%8E%93%E6%B4%BE/" style="font-size: 1.15em; color: rgb(89, 49, 158)">树莓派</a><a href="/tags/Web/" style="font-size: 1.45em; color: rgb(191, 41, 24)">Web</a><a href="/tags/HTML/" style="font-size: 1.15em; color: rgb(90, 103, 67)">HTML</a><a href="/tags/Vim/" style="font-size: 1.15em; color: rgb(199, 49, 125)">Vim</a><a href="/tags/Git/" style="font-size: 1.15em; color: rgb(39, 187, 125)">Git</a><a href="/tags/Gitmoji/" style="font-size: 1.15em; color: rgb(72, 37, 115)">Gitmoji</a><a href="/tags/Browser/" style="font-size: 1.15em; color: rgb(196, 33, 151)">Browser</a><a href="/tags/CSS/" style="font-size: 1.15em; color: rgb(92, 41, 132)">CSS</a><a href="/tags/zsh/" style="font-size: 1.15em; color: rgb(187, 135, 189)">zsh</a><a href="/tags/shell/" style="font-size: 1.15em; color: rgb(11, 89, 196)">shell</a></div></div><div class="card-widget card-archives"><div class="item-headline"><i class="fas fa-archive"></i><span>归档</span></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2021/10/"><span class="card-archive-list-date">十月 2021</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2021/09/"><span class="card-archive-list-date">九月 2021</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2021/08/"><span class="card-archive-list-date">八月 2021</span><span class="card-archive-list-count">4</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2021/06/"><span class="card-archive-list-date">六月 2021</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2021/05/"><span class="card-archive-list-date">五月 2021</span><span class="card-archive-list-count">1</span></a></li></ul></div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>网站资讯</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">文章数目 :</div><div class="item-count">8</div></div><div class="webinfo-item"><div class="item-name">本站总字数 :</div><div class="item-count">6k</div></div><div class="webinfo-item"><div class="item-name">本站访客数 :</div><div class="item-count" id="busuanzi_value_site_uv"></div></div><div class="webinfo-item"><div class="item-name">本站总访问量 :</div><div class="item-count" id="busuanzi_value_site_pv"></div></div><div class="webinfo-item"><div class="item-name">最后更新时间 :</div><div class="item-count" id="last-push-date" data-lastPushDate="2022-05-28T02:47:16.149Z"></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2022 By Debbl</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div><div class="footer_custom_text"><a target="_blank" rel="noopener" href="http://beian.miit.gov.cn/"><span>备案号：鄂ICP备19030152号-3</span></a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></div><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="is-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据库加载中</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div><hr/><div id="local-search-results"></div></div></div><div id="search-mask"></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/pluginsSrc/@fancyapps/ui/dist/fancybox.umd.js"></script><script src="/pluginsSrc/node-snackbar/dist/snackbar.min.js"></script><script src="/js/search/local-search.js"></script><script>var preloader = {
+            <li class="card-category-list-item "><a class="card-category-list-link" href="/categories/Git/"><span class="card-category-list-name">Git</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/Vim/"><span class="card-category-list-name">Vim</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/Web/"><span class="card-category-list-name">Web</span><span class="card-category-list-count">3</span></a><ul class="card-category-list child"><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/Web/HTML/"><span class="card-category-list-name">HTML</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/Web/Node-js/"><span class="card-category-list-name">Node.js</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/Web/Other/"><span class="card-category-list-name">Other</span><span class="card-category-list-count">1</span></a></li></ul></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E6%A0%91%E8%8E%93%E6%B4%BE/"><span class="card-category-list-name">树莓派</span><span class="card-category-list-count">1</span></a></li>
+            </ul></div><div class="card-widget card-tags"><div class="item-headline"><i class="fas fa-tags"></i><span>标签</span></div><div class="card-tag-cloud"><a href="/tags/%E6%A0%91%E8%8E%93%E6%B4%BE/" style="font-size: 1.15em; color: rgb(164, 87, 191)">树莓派</a><a href="/tags/Web/" style="font-size: 1.15em; color: rgb(37, 181, 130)">Web</a><a href="/tags/HTML/" style="font-size: 1.15em; color: rgb(52, 172, 121)">HTML</a><a href="/tags/npm/" style="font-size: 1.15em; color: rgb(21, 81, 51)">npm</a><a href="/tags/Node-js/" style="font-size: 1.15em; color: rgb(179, 53, 48)">Node.js</a><a href="/tags/Vim/" style="font-size: 1.15em; color: rgb(100, 104, 167)">Vim</a><a href="/tags/Git/" style="font-size: 1.15em; color: rgb(85, 63, 8)">Git</a><a href="/tags/Gitmoji/" style="font-size: 1.15em; color: rgb(68, 178, 158)">Gitmoji</a><a href="/tags/Browser/" style="font-size: 1.15em; color: rgb(73, 131, 177)">Browser</a></div></div><div class="card-widget card-archives"><div class="item-headline"><i class="fas fa-archive"></i><span>归档</span></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2021/08/"><span class="card-archive-list-date">八月 2021</span><span class="card-archive-list-count">4</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2021/06/"><span class="card-archive-list-date">六月 2021</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2021/05/"><span class="card-archive-list-date">五月 2021</span><span class="card-archive-list-count">1</span></a></li></ul></div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>网站资讯</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">文章数目 :</div><div class="item-count">6</div></div><div class="webinfo-item"><div class="item-name">本站总字数 :</div><div class="item-count">4.7k</div></div><div class="webinfo-item"><div class="item-name">本站访客数 :</div><div class="item-count" id="busuanzi_value_site_uv"></div></div><div class="webinfo-item"><div class="item-name">本站总访问量 :</div><div class="item-count" id="busuanzi_value_site_pv"></div></div><div class="webinfo-item"><div class="item-name">最后更新时间 :</div><div class="item-count" id="last-push-date" data-lastPushDate="2024-10-12T07:55:00.640Z"></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2024 By Debbl</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div><div class="footer_custom_text"><a target="_blank" rel="noopener" href="http://beian.miit.gov.cn/"><span>备案号：鄂ICP备19030152号-3</span></a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="font-plus" type="button" title="放大字体"><i class="fas fa-plus"></i></button><button id="font-minus" type="button" title="缩小字体"><i class="fas fa-minus"></i></button><button id="translateLink" type="button" title="简繁转换">简</button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></div><div id="local-search"><div class="search-dialog"><div class="search-dialog__title" id="local-search-title">本地搜索</div><div id="local-input-panel"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div></div><hr/><div id="local-search-results"></div><span class="search-close-button"><i class="fas fa-times"></i></span></div><div id="search-mask"></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/tw_cn.js"></script><script src="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.js"></script><script src="/js/search/local-search.js"></script><script>var preloader = {
   endLoading: () => {
     document.body.style.overflow = 'auto';
     document.getElementById('loading-box').classList.add("loaded")
@@ -398,35 +168,39 @@ CNPM淘宝镜像
   }
 }
 window.addEventListener('load',preloader.endLoading())</script><div class="js-pjax"><script>function subtitleType () {
-  if (true) { 
-    window.typed = new Typed("#subtitle", {
-      strings: ["路漫漫其修远兮，吾将上下而求索。"],
-      startDelay: 300,
-      typeSpeed: 150,
-      loop: false,
-      backSpeed: 50
+  getScript('https://sdk.jinrishici.com/v2/browser/jinrishici.js').then(() => {
+    jinrishici.load(function (result) {
+      if (true) {
+        var sub = "".length == 0 ? new Array() : "".split(',')
+        var content = result.data.content
+        var both = sub.unshift(content)
+        var typed = new Typed('#subtitle', {
+          strings: sub,
+          startDelay: 300,
+          typeSpeed: 150,
+          loop: false,
+          backSpeed: 50,
+        })
+      } else {
+        document.getElementById('subtitle').innerHTML = result.data.content
+      }
     })
-  } else {
-    document.getElementById("subtitle").innerHTML = '路漫漫其修远兮，吾将上下而求索。'
-  }
+  })
 }
 
 if (true) {
   if (typeof Typed === 'function') {
     subtitleType()
   } else {
-    getScript('/pluginsSrc/typed.js/lib/typed.min.js').then(subtitleType)
+    getScript('https://cdn.jsdelivr.net/npm/typed.js/lib/typed.min.js').then(subtitleType)
   }
 } else {
   subtitleType()
-}</script></div><script src="/pluginsSrc/butterfly-extsrc/dist/activate-power-mode.min.js"></script><script>POWERMODE.colorful = true;
-POWERMODE.shake = true;
-POWERMODE.mobile = false;
-document.body.addEventListener('input', POWERMODE);
-</script><script>(function(i,s,o,g,r,a,m){i["DaoVoiceObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;a.charset="utf-8";m.parentNode.insertBefore(a,m)})(window,document,"script",('https:' == document.location.protocol ? 'https:' : 'http:') + "//widget.daovoice.io/widget/73aff5e1.js","daovoice")
+}
+</script></div><script>(function(i,s,o,g,r,a,m){i["DaoVoiceObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;a.charset="utf-8";m.parentNode.insertBefore(a,m)})(window,document,"script",('https:' == document.location.protocol ? 'https:' : 'http:') + "//widget.daovoice.io/widget/.js","daovoice")
 </script><script>var isChatBtn = false
 daovoice('init', {
-  app_id: '73aff5e1',},{
+  app_id: '',},{
   launcher: { 
      disableLauncherIcon: isChatBtn // 悬浮 ICON 是否显示
   },
