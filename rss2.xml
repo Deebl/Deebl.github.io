@@ -12,6 +12,10 @@
       <link>https://blog.aiwan.run/</link>
     </image>
     
+    <follow_challenge>
+    <feed_id>67028040212142080</feed_id>
+    <user_id>55825808031657984</user_id>
+    </follow_challenge>
     <atom:link href="https://blog.aiwan.run/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
