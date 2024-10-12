@@ -133,4 +133,6 @@ feed:
   icon: icon.png
   autodiscovery: true
   template:
+    - ./source/atom.xml
     - ./source/rss2.xml
+
