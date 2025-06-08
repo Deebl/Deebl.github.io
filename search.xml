@@ -169,6 +169,17 @@
     
     
     <entry>
+      <title></title>
+      <link href="/main.js"/>
+      <url>/main.js</url>
+      
+        <content type="html"><![CDATA[window.addEventListener('DOMContentLoaded', () => {  window.open('https://aiwan.run/posts', '_self')})]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>关于我</title>
       <link href="/about/index.html"/>
       <url>/about/index.html</url>
