@@ -61,7 +61,7 @@ function initBanner() {
     };
     
     const handleJump = () => {
-      window.location.href = 'https://aiwan.run/posts';
+      window.location.href = 'https://aiwan.run/zh/posts';
     };
     
     if (!isVisible) return null;
